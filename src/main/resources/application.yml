@@ -8,6 +8,7 @@ spring:
           - Path=/api/productos/**
         filters:
           - StripPrefix=2
+          - EjemploName=Hola mi mensaje personalizado, usuario, GuillermoHuerta
       - id: servicio-items
         uri: lb://servicio-items
         predicates:
